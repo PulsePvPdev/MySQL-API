@@ -1,12 +1,8 @@
-package pulsepvp_.BackToServer_Bungee.utils;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
-import pulsepvp_.BackToServer_Bungee.BackToServer_Bungee;
 
 public class MySQL {
 
@@ -14,7 +10,7 @@ public class MySQL {
 	private String Database;
 	private String Username;
 	private String Password;
-	private String console_prefix = BackToServer_Bungee.console_prefix;
+	private String console_prefix = "MyPlugin"
 	private Connection connection;
 
 	/**
